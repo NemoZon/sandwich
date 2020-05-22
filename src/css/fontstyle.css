@@ -1,0 +1,16 @@
+/* your fonts styles */
+/* don't forget download font styles to the path /src/fonts */
+/* do it with https://webfonts.pro/ */
+/* EXEMPLE */
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('/src/fonts/Roboto-Bold.eot');
+    src: local('/src/fonts/Roboto Bold'), local('Roboto-Bold'),
+        url('/src/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/src/fonts/Roboto-Bold.woff2') format('woff2'),
+        url('/src/fonts/Roboto-Bold.woff') format('woff'),
+        url('/src/fonts/Roboto-Bold.ttf') format('truetype'),
+        url('/src/fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+} */
