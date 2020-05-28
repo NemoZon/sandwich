@@ -4,8 +4,6 @@
             .PC
                 display: block
     .advantages
-        .title
-            font-size: 25px
         &__icons
             margin: 0
             flex-direction: column
@@ -27,9 +25,15 @@
                     width: 70px
                     height: 70px
                     margin: 0
-    .consultation
-        .title
-            font-size: 32px
+    .title_consultation
+        font-size: 32px
+    .title
+        font-size: 25px
+    .carousel
+        &__slick
+            width: 700px
+            img
+                width: 100%
 
 @media ( max-width: 768px )
     .header
@@ -55,14 +59,19 @@
             font-size: 15px
     .button_main
         width: 250px
-    .advantages
-        .title
-            font-size: 22px
+    .carousel
+        &__slick
+            width: 500px
+            img
+                width: 100%
+        
     .consultation
-        .title
-            font-size: 23px
         &__subtitle
             font-size: 15px
+    .title
+        font-size: 22px
+        &_consultation
+            font-size: 23px
 
 @media ( max-width: 575px )
     .header
@@ -84,7 +93,13 @@
     .button_main
         width: 100%
     .consultation
-        .title
-            font-size: 13px
         &__subtitle
-            font-size: 13px
+            margin-top: 45px
+            font-size: 15px
+    .carousel
+        &__slick
+            width: 310px
+            img
+                width: 100%
+    .title_consultation
+        font-size: 21px
