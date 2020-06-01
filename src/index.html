@@ -6,22 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/fontstyle.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Puls</title>
+    <title>RunSmart</title>
   </head>
   <body>
 
     <section class="promo">
-      <div class="container">
+      <div class="container container_promo">
         <div class="header">
           <div class="header__logo">
             <img class="PC" src="logo/RunSmart.png" alt="logo">
-            <img class="mobile" src="logo/RunSmart-mobile.png" alt="logo">
             <img class="tablet" src="logo/RunSmart-tablet.png" alt="logo">
           </div>
           <div class="header__official">
@@ -32,11 +32,13 @@
           </div>
           <div class="header__contacts">
             <a href="tel:+74999228974">+7 (499) 922-89-74</a>
-            <button class="button">
+            <a href="#consultation"><button class="button">
               заказать звонок
-            </button>
+            </button></a>
           </div>
         </div>
+      </div>
+      <div class="container">
         <div class="promo__wrapper">
           <div class="promo__title">
             Подбор пульсометра
@@ -107,7 +109,7 @@
       </div>
     </section>
 
-    <section class="consultation">
+    <section class="consultation" id="consultation">
       <div class="container">
         <div class="title title_consultation">
           Получите бесплатную консультацию<br>по подбору пульсометра
@@ -136,7 +138,35 @@
     </section>
 
     <section class="catalog">
-      <div class="container">
+      <div class="container" id="catalog">
+        <div class="header">
+          <div class="header__logo">
+            <div class="header__hamburger">
+              <span class="a"></span>
+              <span class="b"></span>
+              <span class="c"></span>
+              <span class="d"></span>
+              <img class="mobile" src="logo/runsmart_mobile.svg" alt="logo">
+              <div class="header__close">
+                <span class="one"></span>
+                <span class="two"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu">  
+          <ul class="catalog__list catalog__list_menu">
+            <li class="catalog__item catalog__item_active"><div><a href="#catalog">Для фитнеса</a></div></li>
+            <li class="catalog__item"><div><a href="#catalog">для бега</a></div></li>
+            <li class="catalog__item"><div><a href="#catalog">для триатлона</a></div></li>
+          </ul>
+          <div class="header__contacts_menu">
+            <a href="tel:+74999228974">+7 (499) 922-89-74</a>
+            <a href="#consultation"><button class="button">
+              заказать звонок
+            </button></a>
+          </div>
+        </div>
         <div class="title">
           Каталог пульсометров
         </div>
@@ -326,7 +356,7 @@
             </div>
           </div>
         </div>
-        <div class="cards">
+        <div class="cards ">
           
           <div class="card-item ">
             <div class="card-item__wrapper">
@@ -448,7 +478,7 @@
             </div>
           </div>
         </div>
-        <div class="cards">
+        <div class="cards ">
 
           <div class="card-item ">
             <div class="card-item__wrapper">
@@ -580,7 +610,7 @@
     
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
-    <script type="text/javascript" src="https:/code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
